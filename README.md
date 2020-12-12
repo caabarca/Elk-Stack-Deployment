@@ -208,12 +208,6 @@ A summary of the access policies in place can be found in the table below.
 </tbody>
 </table>
 
-Name      Publicly Accessed     Allowable IP Addresses
-Jump Box    No                    110.1.0.5
-Web 1 & 2   No                    10.1.0.6 and 10.1.0.7
-DVWA 2 & 3  No                    10.4.0.4 and 10.4.0.5
-
-
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
