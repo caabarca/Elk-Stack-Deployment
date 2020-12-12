@@ -94,6 +94,63 @@ Load balancing ensures that the application will be highly efficient, in additio
 The configuration details of each machine may be found below.
 Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table.
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"> 			Name 		</th>
+    <th class="tg-0pky"> 			Function 		</th>
+    <th class="tg-0pky"> 			IP 			Address 		</th>
+    <th class="tg-0pky"> 			Operating 			System 		</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow"> 			Jump 			Box 		</td>
+    <td class="tg-0pky"> 			Gateway 		</td>
+    <td class="tg-0pky"> 			10.1.0.5 		</td>
+    <td class="tg-0pky"> 			Linux 		</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"> 			Web 			1 		</td>
+    <td class="tg-0pky"> 			VM 		</td>
+    <td class="tg-0pky"> 			10.1.0.6 		</td>
+    <td class="tg-0pky"> 			Linux 		</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"> 			Web 			2 		</td>
+    <td class="tg-0pky"> 			VM 		</td>
+    <td class="tg-0pky"> 			10.1.0.7 		</td>
+    <td class="tg-0pky"> 			Linux 		</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"> 			ELK 		</td>
+    <td class="tg-0pky"> 			VM 			(Monitor) 		</td>
+    <td class="tg-0pky"> 			10.2.0.4 		</td>
+    <td class="tg-0pky"> 			Linux 		</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"> 			DVWA 			3 		</td>
+    <td class="tg-0pky"> 			VM 		</td>
+    <td class="tg-0pky"> 			10.4.0.4 		</td>
+    <td class="tg-0pky"> 			Linux 		</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"> 			DVWA 			4 		</td>
+    <td class="tg-0pky"> 			VM 		</td>
+    <td class="tg-0pky"> 			10.4.0.5 		</td>
+    <td class="tg-0pky"> 			Linux 		</td>
+  </tr>
+</tbody>
+</table>
 Name        Function     IP Address    Operating System
 Jump Box    Gateway      10.1.0.5      Linux
 Web 1       VM           10.1.0.6      Linux
