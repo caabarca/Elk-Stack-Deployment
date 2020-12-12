@@ -94,34 +94,13 @@ Load balancing ensures that the application will be highly efficient, in additio
 The configuration details of each machine may be found below.
 Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table.
 
-Name
-Function
-IP Address
-Operating System
-Jump Box
-Gateway
-10.1.0.5
-Linux
-Web 1
-VM
-10.1.0.6
-Linux
-Web 2
-VM
-10.1.0.7
-Linux
-ELK
-VM (Monitor)
-10.2.0.4
-Linux
-DVWA 3
-VM
-10.4.0.4
-Linux
-DVWA 4
-VM
-10.4.0.5
-Linux
+Name        Function     IP Address    Operating System
+Jump Box    Gateway      10.1.0.5      Linux
+Web 1       VM           10.1.0.6      Linux
+Web 2       VM           10.1.0.7      Linux
+ELK         VM (Monitor) 10.2.0.4      Linux
+DVWA 3      VM           10.4.0.4      Linux
+DVWA 4      VM           10.4.0.5      Linux
 
 
 ### Access Policies
@@ -144,26 +123,10 @@ Only the jump box machine can accept connections from the Internet. Access to th
 
 A summary of the access policies in place can be found in the table below.
 
-Name
-Publicly Accessed
-Allowable IP Addresses
-Jump Box
-No
-110.1.0.5
-Web 1 & 2
-No
-10.1.0.6 and 10.1.0.7
-DVWA 2 & 3
-No
-10.4.0.4 and 10.4.0.5
-
-
-
-
-
-
-
-
+Name      Publicly Accessed     Allowable IP Addresses
+Jump Box    No                    110.1.0.5
+Web 1 & 2   No                    10.1.0.6 and 10.1.0.7
+DVWA 2 & 3  No                    10.4.0.4 and 10.4.0.5
 
 
 ### Elk Configuration
@@ -194,7 +157,7 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 2. Specify which Beats you successfully installed
 
-   Filebeat and Metrcibeat
+   Filebeat and Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 
@@ -235,6 +198,6 @@ Answer the following questions to fill in the blanks:
 
     http : // VM’s IP:5601/app/kibana
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.  
-
-    install-elk.yml , install-filebeat.yml , install-metricbeat.yml
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc. 
+    
+    install-elk.yml, install-filebeat.yml, install-metricbeat.yml
