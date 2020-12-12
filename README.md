@@ -151,14 +151,6 @@ Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown
   </tr>
 </tbody>
 </table>
-Name        Function     IP Address    Operating System
-Jump Box    Gateway      10.1.0.5      Linux
-Web 1       VM           10.1.0.6      Linux
-Web 2       VM           10.1.0.7      Linux
-ELK         VM (Monitor) 10.2.0.4      Linux
-DVWA 3      VM           10.4.0.4      Linux
-DVWA 4      VM           10.4.0.5      Linux
-
 
 ### Access Policies
 
