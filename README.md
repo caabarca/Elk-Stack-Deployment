@@ -4,13 +4,16 @@ The files in this repository were used to configure the network depicted below.
 
 1. Update the path with the name of your diagram](Images/diagram_filename.png)
 
-https://drive.google.com/file/d/1_g3QUVIZgUr-s7_x2Olq24MPz27PtD6F/view?usp=sharing
+   https://drive.google.com/file/d/1_g3QUVIZgUr-s7_x2Olq24MPz27PtD6F/view?usp=sharing
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-2.  Enter the playbook file.		install-elk.yml
+2.  Enter the playbook file.		
+
+    install-elk.yml
   
+
 This document contains the following details:
 - Description of the Topology
 - Access Policies
