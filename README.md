@@ -172,6 +172,40 @@ Only the jump box machine can accept connections from the Internet. Access to th
 
 A summary of the access policies in place can be found in the table below.
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">Name</span><span style="background-color:#B2B2B2"> 		</span></th>
+    <th class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">Publicly 			Accessed</span><span style="background-color:#B2B2B2"> 		</span></th>
+    <th class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">Allowable 			IP Addresses</span><span style="background-color:#B2B2B2"> 		</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">Jump 			Box</span><span style="background-color:transparent"> 		</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">No</span><span style="background-color:transparent"> 		</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><a href="https://www.tablesgenerator.com/html_tables#sdfootnote1sym">1</a>10.1.0.5<span style="background-color:transparent"> 		</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">Web 			1 &amp; 2</span><span style="background-color:transparent"> 		</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">No</span><span style="background-color:transparent"> 		</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">10.1.0.6 			and 10.1.0.7</span><span style="background-color:transparent"> 		</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">DVWA 			2 &amp; 3</span><span style="background-color:transparent"> 		</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">No</span><span style="background-color:transparent"> 		</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none"> 			</span><span style="text-decoration:none">10.4.0.4 			and 10.4.0.5</span><span style="background-color:transparent"> 		</span></td>
+  </tr>
+</tbody>
+</table>
 Name      Publicly Accessed     Allowable IP Addresses
 Jump Box    No                    110.1.0.5
 Web 1 & 2   No                    10.1.0.6 and 10.1.0.7
